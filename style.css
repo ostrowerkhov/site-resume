@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Cuprum&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Cuprum", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #696969;
+  background: #f0f8ff;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.info {
+  display: flex;
+  margin: 20px 0;
+}
+
+.info-text {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.info img {
+  border-radius: 20px;
+  width: 150px;
+  height: 210px;
+}
+
+.info h1 {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-weight: normal;
+  color: #86898f;
+  margin: 0;
+  font-size: 20px;
+}
+
+.hobbies {
+  background-color: #f0fff0;
+  border: 5px solid #f0fff0;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.hobbies h4 {
+  margin-bottom: 10px;
+}
+
+.hobbies ul {
+  list-style: none;
+}
+
+.hobbies ul li {
+  border-bottom: 1px solid gainsboro;
+}
+
+.work {
+  background-color: #faf0e6;
+  border: 5px solid #faf0e6;
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.work h4 {
+  margin-bottom: 10px;
+}
+
+.work table {
+  width: 100%;
+}
+
+.work table td {
+  text-align: center;
+}
+
+.social-n {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.social-n h4 {
+  margin-bottom: 10px;
+}
+
+.social-n a {
+  text-decoration: none;
+  color: #8b4513;
+  margin: 10px;
+  transition: all 0.4s;
+}
+
+.social-n a:hover {
+  font-size: 1.5em;
+}
+
+.contact-me h4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form-row .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.btn {
+  margin: 0 50%;
+  background-color: #c5c5c5;
+  border: none;
+  width: 10%;
+  height: 30px;
+  font: inherit;
+  border-radius: 10%;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  font-size: 1.2rem;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  background-color: #a5a5a5;
+  width: 100%;
+  padding: 10px;
+}
+
+@media (max-width: 650px) {
+  .container {
+    font-size: 0.7rem;
+    display: block;
+    margin: auto;
+  }
+}

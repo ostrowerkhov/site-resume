@@ -10,72 +10,91 @@
       content="Hi! My name is Andrey! I'm a student of Voronezh State University. It's my site where you can find some information about me."
     />
     <title>Programmer Andrew</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img src="imgs/me.png" alt="It's me" width="200" />
-    <h1>Ostroverkhov Andrey</h1>
-    <p>
-      I'm a student of <strong>Voronezh State University</strong>. I'm a
-      <strong>young programmer</strong> who want to be a good specialist.
-    </p>
-    <p>
-      I like to <em>do sports <strong>(football and gym)</strong></em
-      >, <em>read books</em> and <em>spend time with my friends</em>.
-    </p>
-    <h4>My Hobbies</h4>
-    <ul>
-      <li>Football</li>
-      <li>Gym</li>
-      <li>Reading books</li>
-    </ul>
-    <h4>Experience of work</h4>
-    <table border="2px">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Position</th>
-          <th>Year</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>School</td>
-          <td>Pupil</td>
-          <td>2009-2020</td>
-        </tr>
-        <tr>
-          <td>University</td>
-          <td>Student</td>
-          <td>2020-2024</td>
-        </tr>
-      </tbody>
-    </table>
-    <h4>My socials networks:</h4>
-    <a href="https://vk.com/andreyostroverkhov" target="_blank">VK</a> |
-    <a href="https://t.me/ostrowerkhov" target="_blank">TG</a>
-    <h4>Contact with me</h4>
-    <form>
-      <div>
-        <label for="">Your name</label>
-        <input type="text" placeholder="Enter your name" />
+    <div class="container">
+      <div class="info">
+        <img src="imgs/me.png" alt="It's me" width="200" />
+        <div class="info-text">
+          <h1>Ostroverkhov Andrey</h1>
+          <p>
+            I'm a student of <strong>Voronezh State University</strong>. I'm a
+            <strong>young programmer</strong> who want to be a good specialist.
+            I like to <em>do sports <strong>(football and gym)</strong></em
+            >, <em>read books</em> and <em>spend time with my friends</em>.
+          </p>
+        </div>
       </div>
+      <div class="hobbies">
+        <h4>My Hobbies</h4>
+        <ul>
+          <li>Football</li>
+          <li>Gym</li>
+          <li>Reading books</li>
+        </ul>
+      </div>
+      <div class="work">
+        <h4>Experience of work</h4>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Position</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>School</td>
+              <td>Pupil</td>
+              <td>2009-2020</td>
+            </tr>
+            <tr>
+              <td>University</td>
+              <td>Student</td>
+              <td>2020-2024</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="social-n">
+        <h4>My socials networks:</h4>
+        <a href="https://vk.com/andreyostroverkhov" target="_blank">VK</a> |
+        <a href="https://t.me/ostrowerkhov" target="_blank">TG</a>
+      </div>
+      <div class="contact-me">
+        <h4>Contact with me</h4>
+        <form>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="">Your name</label>
+              <input type="text" placeholder="Enter your name" />
+            </div>
 
-      <div>
-        <label for="">Your email</label>
-        <input type="email" placeholder="Enter your email" />
-      </div>
+            <div class="form-group">
+              <label for="">Your email</label>
+              <input type="email" placeholder="Enter your email" />
+            </div>
+          </div>
 
-      <div>
-        <label for="message">Your name:</label>
-        <br />
-        <textarea
-          placeholder="Enter your message"
-          id="message"
-          cols="15"
-          rows="5"
-        ></textarea>
+          <div class="form-group">
+            <label for="message">Your message:</label>
+
+            <textarea
+              placeholder="Enter your message"
+              id="message"
+              cols="20"
+              rows="5"
+            ></textarea>
+          </div>
+
+          <button class="btn" type="submit">Send!</button>
+        </form>
       </div>
-      <button type="submit">Send!</button>
-    </form>
+    </div>
+    <div class="footer">
+      <p>OOO ANDRUHA 2002-2022</p>
+    </div>
   </body>
 </html>
